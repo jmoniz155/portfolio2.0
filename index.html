@@ -1,96 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <title>Portfolio2.0</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./js/brands.js"></script>
+    <script defer src="./js/solid.js"></script>
+    <script defer src="./js/fontawesome.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./css/styles.css" rel="stylesheet" />
+    <title>JM Portfolio</title>
+  </head>
+  
+  <body style="margin-top: 56px">
 
-</head>
-<body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">JAM</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">My Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Links
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Resume</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">LinkedIn</a></li>
-                  <li><a class="dropdown-item" href="#">GitHub</a></li>
-                </ul>
-              </li>
-            </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">Jesse Moniz</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myWork">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Links
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://docs.google.com/document/d/1KKc6dHwCH7C1M3Re74wDwWyAPfTZ8mQgfZ1JSS_MMxA/edit">Resume</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/jesse-moniz-98693621a/">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="https://github.com/jmoniz155">GitHub</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-      <br/>
-      <h1>About Me</h1>
-      <section class="page-section" id="about">
-          <img src="./images/family_photo.jpeg" class="img-fluid" alt="family picture">
-          <br/>
-          <br/>
-            <p>Jesse Moniz is a full time student attending a full stack bootcamp based in San Diego, CA. Jesse is someone who is facinated about learning code and developing.  
-           He is a father of two amazing boys who loves spending quality time togehter.
-            </p>
-        </section> 
-        
-        <h2>My Work</h2>
-        <p><strong>Weather Dashboard</strong></p>
-        <section class="myWork">
-          <img src="./images/adoption_connection.jpg" class="img-fluid" alt="project 1">
-          <br/>
-          <a href="https://github.com/rEEEEEahn/adoption-connection">Adoption-Connection Project</a>
-          <br/>
-          <a href="https://reeeeeahn.github.io/adoption-connection/">Adoption-Connection Live Link</a>
-          <p>Jesse has been working on alot of projects to improve his knowledge while in the full stack
-              bootcamp. He has been working on HTML 5, CSS 3, Javascript and API for the past 4 weeks.
-          </p>
 
-          <h3><strong>Coding Quiz</strong></h3>
-            <img src="./images/weather_dashboard1.jpg" class="img-fluid" alt="weather_dashboard1">
-            <br/>
-            <a href="https://github.com/jmoniz155/code-quiz">Code Quiz Home Work Assignment</a>
-            <br/>
-            <a href="https://jmoniz155.github.io/code-quiz/">Code Quiz Live Link</a>
+    <section id="header" class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xs-12 col-sm-12 col-md-8">
+            <img src="./images/family_photo.jpeg" class="image" alt="img" />
+          </div>
+          <div class="col-12 col-xs-12 col-sm-12 col-md-3">
             <br/>
             <br/>
-          <p><strong>Weather Dashboard</strong></p>
-              <img src="./assets/images/weather_dashboard1.jpg" alt="Forecast"/>
-              <br/>
-              <a href="https://github.com/jmoniz155/weather-application">Weather Dashboard Home Work Assignment</a>
-              <br/>
-              <a href="https://jmoniz155.github.io/weather-application/">Weather Dashboard Link Link</a>
+            <br/>
+            <h2>Jesse Moniz</h2>
+            <p>Jesse is a hard working fast learner currently in a full stack bootcamp based in San Diego, CA. Expected Graduation Date Mid</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="aboutMe" class="aboutMe">
+      <div class="container">
+        <div class="row">
+          <h2>About Me</h2>
+          <a href="https://docs.google.com/document/d/1KKc6dHwCH7C1M3Re74wDwWyAPfTZ8mQgfZ1JSS_MMxA/edit">Resume</a>
+          <p>Jesse is a family man and a father of two amazing boys who loves spending quality time together. 
+            He is also an avid cyclist who enjoys the outdoors with friends and family.</p>
+            <p>I learned so much from this bootcamp that I cant wait to see what tommorow holds</p>
+            
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+        </div>
+      </div>
+    </section>
 
-    </section> 
-    
-    <section class="contact">
+    <section id="myWork" class="myWork">
+      <div class="container">
+        <div class="row">
+          <h2>My Work</h2>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="card">
+            <img
+              src="./images/adoption_connection.jpg"
+              class="card-img-top"
+              alt="adoption_connection"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">
+                Adoption connection is a group project where we help to connect you with your potential furry friend.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://github.com/rEEEEEahn/adoption-connection" class="card-link"
+                ><li class="list-group-item ghbutton">
+                  <i class="fab fa-github"></i></li
+              ></a>
+              <a href=" https://reeeeeahn.github.io/adoption-connection/" class="card-link"
+                ><li class="list-group-item linkButton">
+                  <i class="fas fa-link"></i></li
+              ></a>
+            </ul>
+          </div>
 
-    </section> 
-</body>
+          <div class="card">
+            <img
+              src="./images/weather_dashboard1.jpg"
+              class="card-img-top"
+              alt="weather_dashboard1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Homework Assignment</h5>
+              <p class="card-text">
+                An application to view a city 5 day forecast.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://github.com/jmoniz155/weather-application" class="card-link"
+                ><li class="list-group-item ghbutton">
+                  <i class="fab fa-github"></i></li
+              ></a>
+              <a href=" https://jmoniz155.github.io/weather-application/" class="card-link"
+                ><li class="list-group-item linkButton">
+                  <i class="fas fa-link"></i></li
+              ></a>
+            </ul>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/coding_brain.jpg"
+              class="card-img-top"
+              alt="coding_brain"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Homework Assignment</h5>
+              <p class="card-text">
+               A coding quiz that is timed and saves your scores. 
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href=" https://github.com/jmoniz155/code-quiz" class="card-link"
+                ><li class="list-group-item ghbutton">
+                  <i class="fab fa-github"></i></li
+              ></a>
+              <a href="https://jmoniz155.github.io/code-quiz/" class="card-link"
+                ><li class="list-group-item linkButton">
+                  <i class="fas fa-link"></i></li
+              ></a>
+            </ul>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/trip journal.jpg"
+              class="card-img-top"
+              alt="coding_brain"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">
+               My-Trip-Journal is backend application using an API key to retrieve and display data on the front end.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://github.com/jmoniz155/my-trip-journal" class="card-link"
+                ><li class="list-group-item ghbutton">
+                  <i class="fab fa-github"></i></li
+              ></a>
+              <a href="https://my-trip-journal2.herokuapp.com/" class="card-link"
+                ><li class="list-group-item linkButton">
+                  <i class="fas fa-link"></i></li
+              ></a>
+            </ul>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/readme.md.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">ReadMe Generator</h5>
+              <p class="card-text">
+                A Node.js application that a user can generate a README.md file by answering prompts.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://github.com/jmoniz155/professional-readme-generator" class="card-link"
+                ><li class="list-group-item ghbutton">
+                  <i class="fab fa-github"></i></li
+              ></a>
+              <a href="https://watch.screencastify.com/v/h3ZvBeNdwnW2gweBQcwz" class="card-link"
+                ><li class="list-group-item linkButton">
+                  <i class="fas fa-link"></i></li
+              ></a>
+            </ul>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/ORM.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Object Relational Mapping</h5>
+              <p class="card-text">
+                A 
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <a href="https://github.com/jmoniz155/object-relational-mapping-" class="card-link"
+                ><li class="list-group-item ghbutton">
+                  <i class="fab fa-github"></i></li
+              ></a>
+              <a href="https://dashboard.heroku.com/apps/orm-deploy-jm155" class="card-link"
+                ><li class="list-group-item linkButton">
+                  <i class="fas fa-link"></i></li
+              ></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <h3><i class="fas fa-user-alt"></i> Jesse Moniz</h3>
+          <h4>
+            <i class="fas fa-envelope"> </i
+            ><a href="mailto:jmoniz155@icloud.com"> jmoniz155@gmail.com</a>
+          </h4>
+          <h4><i class="fas fa-phone"> </i> 619-678-9014</h4>
+          <h4><i class="fas fa-map-pin"></i> San Diego, CA</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container">
+        <div class="row footer">
+          <div class="col col-12 col-md-12 footerL">
+            <h1 CLASS="d-flex justify-content-around">
+              <a href="https://www.linkedin.com/in/jesse-moniz-98693621a/" class="card-link">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://github.com/jmoniz155" class="card-link">
+              <i class="fab fa-github"></i>
+              <a href="https://www.facebook.com/jesse.moniz.96" class="card-link">
+              <i class="fab fa-facebook"></i>
+              <a href="https://stackoverflow.com/users/16738506/jesse-moniz" class="card-link">
+                <i class="fab fa-stack-overflow"></i>
+            </h1>
+          </div>
+          <div class="col col-12 col-md-12 footerR">
+            <h3>
+              Jesse Moniz ©2021
+            </h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
 </html>

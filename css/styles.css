@@ -1,0 +1,71 @@
+body {
+    top: 56px;
+}
+
+section{
+    margin: .5rem 0 .2rem 0;
+    padding: 0.5rem;
+}
+
+.image, img{
+    width: 80%;
+}
+
+.ghbutton{
+    background-color: #222;
+    color:#999;
+}
+
+.linkButton{
+    background-color: #999;
+    color:#222;
+ 
+}
+
+.card-link+.card-link {
+    margin-left: 0rem;
+}
+
+.card{
+    width: 18rem;
+    margin: 1rem;
+    padding: 0.3rem;
+}
+
+.header{
+    background-color:aqua;
+    margin:0;
+}
+.myWork{
+    background-color: aqua;
+}
+
+.footerR {
+    text-align: center;
+    color: #999;
+}
+.footerL {
+    text-align: center;
+    color: #999;
+    font-size: .8rem;
+    transition-property: width;
+    transition-duration: 5s;
+}
+  
+.footerL:hover {
+    font-size: 3rem;
+}
+
+.svg-inline--fa {
+    text-decoration-color: #222;
+    text-align: center;
+    color: rgb(225, 180, 0);
+    height: 2rem;
+    transition-property: height color;
+    transition-duration: 3s;
+}
+  
+.svg-inline--fa:hover {
+    height: 3rem;
+    color: rgb(238, 238, 238);
+}
