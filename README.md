@@ -1,12 +1,13 @@
 # portfolio2.0
 
-
 ## Description
-This is my portfolio2.0 where I show my front end skills to display my latest and greatest front end work
+This is my portfolio2.0 where I show my front end skills to display my latest and greatest front end work.
+
+![](images/portfolio2.0.jpg)
 
 ## Credits
 
-I would like to give credit to my Varsity Tutor for taking the time to work with me with bootstrap and layouts.
+I would like to give credit to my Varsity Tutor for taking the time to teach me more about bootstrap.
 
 ## Table of Contents
 
@@ -34,7 +35,7 @@ I would like to give credit to my Varsity Tutor for taking the time to work with
 
 ## Features
 
-This portfolio was built using HTML 3, CSS 5, and Javascript
+This portfolio was built using HTML 3, CSS 5, and Javascript.
 
 ## Links
 
