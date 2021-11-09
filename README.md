@@ -41,4 +41,4 @@ This portfolio was built using HTML 3, CSS 5, and Javascript.
 
 [Repository](https://github.com/jmoniz155/portfolio2.0)
 
-[Live Link]()
+[Live Link](https://jmoniz155.github.io/portfolio2.0/)
