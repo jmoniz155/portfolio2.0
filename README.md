@@ -1,7 +1,7 @@
 # portfolio2.0
 
 ## Description
-This is my portfolio2.0 where I show my front end skills to display my latest and greatest front end work.
+This is my portfolio2.0 where I show my front end skills to display my latest and greatest work.
 
 ![](images/portfolio2.0.jpg)
 
