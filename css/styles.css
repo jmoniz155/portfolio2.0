@@ -33,8 +33,20 @@ section{
 }
 
 .header{
-    background-color:aqua;
+    background-image: url("../images/beach12.jpg");
+    background-size: cover;
     margin:0;
+}
+
+.aboutMe{
+    background-image: url("../images/beach11.jpg");
+    background-size:cover;
+    margin:0;
+    text-decoration-color: #000;
+}
+
+.headerContent{
+    color:black;
 }
 .myWork{
     background-color: aqua;
@@ -68,4 +80,14 @@ section{
 .svg-inline--fa:hover {
     height: 3rem;
     color: rgb(238, 238, 238);
+}
+
+.link{
+    color: #000;
+    font-weight: 600;
+}
+
+.skill{
+    width: 30%;
+    border: solid 1px #222;
 }
